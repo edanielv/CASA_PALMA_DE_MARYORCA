@@ -1,46 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-00-entrada",
-      "name": "00-ENTRADA",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "yaw": -0.04794741930400903,
-        "pitch": -0.037839576567828104,
-        "fov": 1.38217411905719
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.06116164751939834,
-          "pitch": 0.19331701323098294,
-          "rotation": 0,
-          "target": "1-01-sala"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-01-sala",
-      "name": "01-SALA",
+      "id": "0-01-entrada",
+      "name": "01-ENTRADA",
       "levels": [
         {
           "tileSize": 256,
@@ -68,67 +30,67 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.1105761392276765,
-          "pitch": 0.019860512892513782,
+          "yaw": 0.005735265593438399,
+          "pitch": 0.1487774305153131,
           "rotation": 0,
-          "target": "2-02-piscina"
+          "target": "1-02-sala"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "1-02-sala",
+      "name": "02-SALA",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": -2.8967823214380637,
-          "pitch": 0.10131694402611124,
-          "rotation": 0,
-          "target": "0-00-entrada"
+          "tileSize": 512,
+          "size": 512
         },
         {
-          "yaw": 1.7152815658235054,
-          "pitch": -0.056589759605149226,
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.09106306893621863,
+          "pitch": 0.03518698295435918,
+          "rotation": 0,
+          "target": "2-03-piscina"
+        },
+        {
+          "yaw": 1.7297294774848897,
+          "pitch": -0.13216044448544828,
           "rotation": 0.7853981633974483,
-          "target": "3-03-pasillo-nivel-02"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-02-piscina",
-      "name": "02-PISCINA",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "target": "3-04-pasillo-nivel-02"
         },
         {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.24375951050871691,
-          "pitch": 0.053821238432657736,
+          "yaw": -2.90751403162146,
+          "pitch": 0.0309116102925735,
           "rotation": 0,
-          "target": "1-01-sala"
+          "target": "0-01-entrada"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-03-pasillo-nivel-02",
-      "name": "03-PASILLO NIVEL 02",
+      "id": "2-03-piscina",
+      "name": "03-PISCINA",
       "levels": [
         {
           "tileSize": 256,
@@ -156,41 +118,91 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.499312868992291,
-          "pitch": 0.5131871050713759,
+          "yaw": 0.1891787181607878,
+          "pitch": 0.04625676702942627,
+          "rotation": 0,
+          "target": "1-02-sala"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-04-pasillo-nivel-02",
+      "name": "04-PASILLO NIVEL 02",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.6672188286149883,
+          "pitch": 0.4452532533915843,
+          "rotation": 0.7853981633974483,
+          "target": "6-07-habitacin-02"
+        },
+        {
+          "yaw": 0.44537397474105234,
+          "pitch": 0.17124311191304642,
+          "rotation": 0.7853981633974483,
+          "target": "4-05-bao"
+        },
+        {
+          "yaw": 0.017138731716785927,
+          "pitch": 0.10790843010221174,
+          "rotation": 0,
+          "target": "5-06-habitacin-01"
+        },
+        {
+          "yaw": -0.8085695146231178,
+          "pitch": 0.3096019433505006,
+          "rotation": 5.497787143782138,
+          "target": "7-08-habitacin-03"
+        },
+        {
+          "yaw": -2.2105159306915336,
+          "pitch": 0.5054002901745065,
           "rotation": 8.63937979737193,
-          "target": "1-01-sala"
+          "target": "1-02-sala"
         },
         {
-          "yaw": -2.911305656653685,
-          "pitch": 0.08150185954900735,
-          "rotation": 0.7853981633974483,
-          "target": "7-07-habitacin-03"
+          "yaw": -2.889748947285888,
+          "pitch": 0.11880822973794025,
+          "rotation": 7.0685834705770345,
+          "target": "8-09-habitacin-04"
         },
         {
-          "yaw": 0.428314188975504,
-          "pitch": 0.22194614047295858,
-          "rotation": 0.7853981633974483,
-          "target": "4-04-bao"
-        },
-        {
-          "yaw": 0.03149169629702975,
-          "pitch": 0.18432167724516368,
+          "yaw": -2.892459743009038,
+          "pitch": -0.09822240752030531,
           "rotation": 0,
-          "target": "5-05-habitacin-01"
-        },
-        {
-          "yaw": -0.7665952870415857,
-          "pitch": 0.3972149120950892,
-          "rotation": 4.71238898038469,
-          "target": "6-06-habitacin-02"
+          "target": "9-10-altillo"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-04-bao",
-      "name": "04-BAÑO",
+      "id": "4-05-bao",
+      "name": "05-BAÑO",
       "levels": [
         {
           "tileSize": 256,
@@ -212,23 +224,99 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": -0.15842219364256138,
-        "pitch": 0.35621131658923844,
-        "fov": 1.38217411905719
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -1.8732501263308237,
-          "pitch": 0.5418867624045589,
+          "yaw": -1.9638248831804006,
+          "pitch": 0.38999015068300835,
+          "rotation": 5.497787143782138,
+          "target": "3-04-pasillo-nivel-02"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-06-habitacin-01",
+      "name": "06-HABITACIÓN-01",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.7643603229516085,
+          "pitch": 0.2139120690786065,
+          "rotation": 5.497787143782138,
+          "target": "3-04-pasillo-nivel-02"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-07-habitacin-02",
+      "name": "07-HABITACIÓN-02",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.4545518142903324,
+          "pitch": 0.3051654737153662,
           "rotation": 0,
-          "target": "3-03-pasillo-nivel-02"
+          "target": "3-04-pasillo-nivel-02"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "5-05-habitacin-01",
-      "name": "05-HABITACIÓN-01",
+      "id": "7-08-habitacin-03",
+      "name": "08-HABITACIÓN-03",
       "levels": [
         {
           "tileSize": 256,
@@ -256,17 +344,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.696414992531442,
-          "pitch": 0.3471872238738829,
+          "yaw": -1.296684291386354,
+          "pitch": 0.12908648693958824,
           "rotation": 4.71238898038469,
-          "target": "3-03-pasillo-nivel-02"
+          "target": "3-04-pasillo-nivel-02"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6-06-habitacin-02",
-      "name": "06-HABITACIÓN-02",
+      "id": "8-09-habitacin-04",
+      "name": "09-HABITACIÓN-04",
       "levels": [
         {
           "tileSize": 256,
@@ -294,54 +382,60 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.298446365919398,
-          "pitch": 0.2209111727222517,
-          "rotation": 4.71238898038469,
-          "target": "3-03-pasillo-nivel-02"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "7-07-habitacin-03",
-      "name": "07-HABITACIÓN-03",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "yaw": 1.0301059291544252,
+          "pitch": 0.2169342359254287,
+          "rotation": 2.356194490192345,
+          "target": "3-04-pasillo-nivel-02"
         },
         {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.0456660987580655,
-          "pitch": 0.0718376884942522,
+          "yaw": 1.0402259545607624,
+          "pitch": -0.009367136205920445,
           "rotation": 1.5707963267948966,
-          "target": "3-03-pasillo-nivel-02"
+          "target": "9-10-altillo"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-10-altillo",
+      "name": "10-ALTILLO",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.1504237684434386,
+          "pitch": 0.04668839166864913,
+          "rotation": 2.356194490192345,
+          "target": "3-04-pasillo-nivel-02"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "apto_palmas_de_mallorca",
+  "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
