@@ -190,12 +190,6 @@ var APP_DATA = {
           "pitch": 0.11880822973794025,
           "rotation": 7.0685834705770345,
           "target": "8-09-habitacin-04"
-        },
-        {
-          "yaw": -2.892459743009038,
-          "pitch": -0.09822240752030531,
-          "rotation": 0,
-          "target": "9-10-altillo"
         }
       ],
       "infoHotspots": []
@@ -435,7 +429,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "CASA_PALMA_MALLORCA",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
